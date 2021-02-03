@@ -1,0 +1,17 @@
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.social-icons__item {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+  img {
+    transition: 0.3s ease-in;
+    &:hover {
+      filter: invert(0.25);
+      transform: scale(1.12);
+    }
+  }
+}

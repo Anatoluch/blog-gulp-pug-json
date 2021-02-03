@@ -1,0 +1,17 @@
+.widget-instagram  {
+   padding: 40px 0;
+   display: flex;
+   flex-wrap: wrap;
+}
+.widget-instagram__item  {
+   margin-bottom: 30px;
+   &:nth-child(odd) {
+      margin-right: 30px;
+   }
+   img {
+      width: 120px;
+      height: 100px;
+      border-radius: 2px;
+      object-fit: cover;
+   }
+}

@@ -1,0 +1,40 @@
+.button-rounded {
+   padding: 0 40px;
+   height: 38px;
+   border: none;
+   border-radius: 19px;
+   background-color: #375573;
+   color: #fff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+   line-height: 38px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.24px;
+   cursor: pointer;
+   transition: 0.3s ease-in;
+   &:hover {
+      background-color: lighten(#375573, 20%);
+   }
+}
+
+.button-read-more {
+   display: inline-block;
+   padding: 0 30px;
+   height: 44px;
+   border-radius: 6px;
+   background-color: #375573;
+   color: #fff;
+   line-height: 44px;
+   font-size: 12px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.24px;
+   cursor: pointer;
+   transition: 0.3s ease-in;
+   &:hover {
+      background-color: lighten(#375573, 20%);
+      text-decoration: none;
+      color: #fff;
+   }
+}
